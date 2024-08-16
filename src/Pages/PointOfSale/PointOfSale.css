@@ -1,0 +1,935 @@
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+.tabs{
+    font-size: 22px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+.tab-button{
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    border: 2px solid #111;
+}
+.product-bar li{
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    border: 2px solid #111;
+}
+.product-bar ul{
+    overflow-x: scroll;
+}
+   
+li a{
+    color: #111;
+}
+li:active{
+    background-color: #111;
+}
+li a:active{
+    color: #fff;
+}
+.tab-button.active{
+    background-color: #111;
+    color: #fff;
+}
+/* .tab-button:not(.active){
+    display: none;
+} */
+.tab-content.show{
+    display: block;
+}
+.tab-content.hide{
+    display: none;
+}
+.product-bar{
+    width: 100%;
+    /* height: 50%; */
+    background-image: linear-gradient(to right, #50C9C3, #96DEDA);
+    margin: 0 32px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+}
+.product-bar ul{
+    gap: 54px;
+    text-align: center;
+}
+.product-bar li{
+    padding: 8px 22px;
+    border-radius: 16px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bills{
+    width: 420px;
+    height: 700px;
+    background-color: #fff;
+    border: 2px solid #7878785E;
+    border-radius: 12px;
+}
+.sub-barcode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.items_1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6px;
+}
+.img-name{
+    display: flex;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.addPrice{
+    text-decoration: underline;
+    padding: 0 12px;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+}
+.amount{
+    width: 250px;
+    background-image: linear-gradient(to right, #50C9C3, #96DEDA);
+    border-radius: 8px;
+    padding: 0 12px;
+    border: 1.6px solid #111;
+}
+.main-amount{
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    flex-direction: column;
+    align-items: center;
+}
+.divider{
+    border: 1.6px solid rgba(151, 151, 151, 0.377);
+    width: 240px;
+    margin-bottom: 8px;
+}
+.sub_tab{
+    background-color: #e2e2e2;
+    width: 320px;
+    border-radius: 16px;
+    padding: 8px 12px;
+}
+.sub_tab select{
+    width: 300px;
+    height: 40px;
+    padding: 0 12px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+}
+.top-tab{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 6rem;
+}
+.circle_icon{
+    color: #50C9C3;
+    font-size: 32px;
+}
+.royalty_points{
+    width: 640px;
+    background-image: linear-gradient(to left, #C5E4E3, #C9F2F0);
+    border-radius: 8px;
+    padding: 16px 22px;
+    margin-top: 22px;
+}
+.royalty_points_bottom{
+    padding: 16px 0;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom_left h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #5E5E5E;
+}
+.square{
+    background-color: #EFEFEF;
+    width: 160px;
+    height: 120px;
+    border-radius: 6px;
+    padding: 4px 4px;
+}
+.square p{
+    margin: 0;
+}
+.top_text{
+    line-height: 6px;
+    font-size: 25px;
+}
+.top_text_right{
+    line-height: 4px;
+}
+.top_text_right h1{
+    font-size: 50px;
+}
+.top_text_right p{
+    font-size: 25px;
+}
+.point_of_sale_main{
+    display: flex;
+}
+.pos_1{
+    width: 60%;
+}
+.pos_2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 40%;
+}
+
+
+@media (min-width: 768px) {
+    .col-md-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+}
+
+@media not all and (min-width: 350px) {
+    .point_of_sale_main{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .pos_1{
+        width: 100%;
+    }    
+    .pos_2{
+        width: 100%;
+    }
+    .tab-content.show{
+        overflow-x: hidden;
+    }
+    .product-bar{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .product-bar ul{
+        gap: 22px;
+        padding-left: 8px;
+    }
+    .tabs{
+        padding-left: 8px;
+    }
+    .product-card{
+        width: 220px !important;
+        height: 160px !important;
+    }
+    .card-top img{
+        width: 50% !important;
+        height: 20%;
+    }
+    .card-top div{
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-top div h1{
+        font-size: 20px;
+        margin: 0;
+    }
+    .card-top div p{
+        font-size: 14px;
+        margin: 4px 0;
+    }
+    .card-bottom div button{
+        padding: 6px 10px !important;
+        font-size: 14px !important;
+        border-radius: 8px;
+    }
+    .bills{
+        width: 290px;
+    }
+    .sub_tab{
+        width: 240px;
+        padding: 4px 8px;
+    }
+    .sub_tab select{
+        width: 220px;
+    }
+    /* .top-tab{
+        justify-content: center;
+    } */
+    .royalty_points {
+        width: 220px;
+    }
+    .top_text{
+        line-height: 6px;
+        font-size: 14px;
+    }
+    .top_text_right h1{
+        font-size: 18px;
+    }
+    .top_text_right p{
+        font-size: 14px;
+    }
+    .bottom_left .divider{
+        width: 100px !important;
+        margin-top: 16px !important;
+    }
+    .bottom_right .square{
+        width: 80px;
+        height: 80px;
+    }
+    .bottom_right .square p{
+        font-size: 10px;
+    }
+    .circle_icon{
+        font-size: 26px;
+    }
+    .sub-barcode div{
+        width: 140px !important;
+        height: 24px !important;
+    }
+    .img-name img{
+        width: 32% !important;
+    }
+    .img-name div p{
+        font-size: 12px;
+    }
+    .amount .upper p{
+        font-size: 14px;
+    }
+    .main-amount div div button{
+        padding: 10px 12px !important;
+        font-size: 14px !important;
+    }
+    .bottom_left h3{
+        font-size: 14px
+    }
+    .top-tab{
+        gap: 4px;
+    }
+    /* .centering{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    } */
+    .product-bar li {
+        padding: 4px 8px;
+        border-radius: 10px;
+    }
+    .product-bar li a{
+        font-size: 12px;
+    }
+    .bottom{
+        margin-top: 12px;
+    }
+    .royalty_points_bottom {
+        padding: 2px 0;
+    }
+    .centering{
+        transform: translateX(6%);
+    }
+
+}
+
+
+
+@media (min-width: 351px) and (max-width: 480px) {
+    .point_of_sale_main{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .pos_1{
+        width: 100%;
+    }    
+    .pos_2{
+        width: 100%;
+    }
+    .tab-content.show{
+        overflow-x: hidden;
+    }
+    .product-bar{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        width: 360px;
+        height: 50px;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .product-bar ul{
+        gap: 22px;
+        padding-left: 8px;
+    }
+    .tabs{
+        padding-left: 8px;
+    }
+    .product-card{
+        width: 220px !important;
+        height: 160px !important;
+    }
+    .card-top img{
+        width: 50% !important;
+        height: 20%;
+    }
+    .card-top div{
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-top div h1{
+        font-size: 20px;
+        margin: 0;
+    }
+    .card-top div p{
+        font-size: 14px;
+        margin: 4px 0;
+    }
+    .card-bottom div button{
+        padding: 6px 10px !important;
+        font-size: 14px !important;
+        border-radius: 8px;
+    }
+    .bills{
+        width: 290px;
+    }
+    .sub_tab{
+        width: 240px;
+        padding: 4px 8px;
+    }
+    .sub_tab select{
+        width: 220px;
+    }
+    /* .top-tab{
+        justify-content: center;
+    } */
+    .royalty_points {
+        width: 300px;
+    }
+    .top_text{
+        line-height: 6px;
+        font-size: 14px;
+    }
+    .top_text_right h1{
+        font-size: 18px;
+    }
+    .top_text_right p{
+        font-size: 14px;
+    }
+    .bottom_left .divider{
+        width: 160px !important;
+        margin-top: 16px !important;
+    }
+    .bottom_right .square{
+        width: 80px;
+        height: 80px;
+    }
+    .bottom_right .square p{
+        font-size: 10px;
+    }
+    .circle_icon{
+        font-size: 26px;
+    }
+    .sub-barcode div{
+        width: 140px !important;
+        height: 24px !important;
+    }
+    .img-name img{
+        width: 32% !important;
+    }
+    .img-name div p{
+        font-size: 12px;
+    }
+    .amount .upper p{
+        font-size: 14px;
+    }
+    .main-amount div div button{
+        padding: 10px 12px !important;
+        font-size: 14px !important;
+    }
+    .bottom_left h3{
+        font-size: 14px
+    }
+    .top-tab{
+        gap: 4px;
+    }
+    /* .centering{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    } */
+    .product-bar li {
+        padding: 4px 8px;
+        border-radius: 10px;
+    }
+    .product-bar li a{
+        font-size: 12px;
+    }
+    .bottom{
+        margin-top: 12px;
+    }
+    .royalty_points_bottom {
+        padding: 2px 0;
+    }
+    .centering{
+        transform: translateX(6%);
+    }
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 640px) {
+    .point_of_sale_main{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .pos_1{
+        width: 100%;
+    }    
+    .pos_2{
+        width: 100%;
+    }
+    .tab-content.show{
+        overflow-x: hidden;
+    }
+    .product-bar{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        width: 360px;
+        height: 50px;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .product-bar ul{
+        gap: 22px;
+        padding-left: 8px;
+    }
+    .tabs{
+        padding-left: 8px;
+    }
+    .product-card{
+        width: 220px !important;
+        height: 160px !important;
+    }
+    .card-top img{
+        width: 50% !important;
+        height: 20%;
+    }
+    .card-top div{
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-top div h1{
+        font-size: 20px;
+        margin: 0;
+    }
+    .card-top div p{
+        font-size: 14px;
+        margin: 4px 0;
+    }
+    .card-bottom div button{
+        padding: 6px 10px !important;
+        font-size: 14px !important;
+        border-radius: 8px;
+    }
+    .bills{
+        width: 290px;
+    }
+    .sub_tab{
+        width: 240px;
+        padding: 4px 8px;
+    }
+    .sub_tab select{
+        width: 220px;
+    }
+    /* .top-tab{
+        justify-content: center;
+    } */
+    .royalty_points {
+        width: 300px;
+    }
+    .top_text{
+        line-height: 6px;
+        font-size: 14px;
+    }
+    .top_text_right h1{
+        font-size: 18px;
+    }
+    .top_text_right p{
+        font-size: 14px;
+    }
+    .bottom_left .divider{
+        width: 160px !important;
+        margin-top: 16px !important;
+    }
+    .bottom_right .square{
+        width: 80px;
+        height: 80px;
+    }
+    .bottom_right .square p{
+        font-size: 10px;
+    }
+    .circle_icon{
+        font-size: 26px;
+    }
+    .sub-barcode div{
+        width: 140px !important;
+        height: 24px !important;
+    }
+    .img-name img{
+        width: 32% !important;
+    }
+    .img-name div p{
+        font-size: 12px;
+    }
+    .amount .upper p{
+        font-size: 14px;
+    }
+    .main-amount div div button{
+        padding: 10px 12px !important;
+        font-size: 14px !important;
+    }
+    .bottom_left h3{
+        font-size: 14px
+    }
+    .top-tab{
+        gap: 4px;
+    }
+    /* .centering{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    } */
+    .product-bar li {
+        padding: 4px 8px;
+        border-radius: 10px;
+    }
+    .product-bar li a{
+        font-size: 12px;
+    }
+    .bottom{
+        margin-top: 12px;
+    }
+    .royalty_points_bottom {
+        padding: 2px 0;
+    }
+    .centering{
+        transform: translateX(6%);
+    }
+
+
+}
+
+
+
+@media (min-width: 641px) and (max-width: 768px) {
+    .point_of_sale_main{
+        gap: 12px;
+    }
+    .pos_1{
+        width: 100%;
+    }    
+    .pos_2{
+        width: 100%;
+    }
+    .tab-content.show{
+        overflow-x: hidden;
+    }
+    .product-bar{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        width: 360px;
+        height: 50px;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .product-bar ul{
+        gap: 22px;
+        padding-left: 8px;
+    }
+    .tabs{
+        padding-left: 8px;
+    }
+    .product-card{
+        width: 220px !important;
+        height: 160px !important;
+    }
+    .card-top img{
+        width: 50% !important;
+        height: 20%;
+    }
+    .card-top div{
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-top div h1{
+        font-size: 20px;
+        margin: 0;
+    }
+    .card-top div p{
+        font-size: 14px;
+        margin: 4px 0;
+    }
+    .card-bottom div button{
+        padding: 6px 10px !important;
+        font-size: 14px !important;
+        border-radius: 8px;
+    }
+    .bills{
+        width: 290px;
+    }
+    .sub_tab{
+        width: 240px;
+        padding: 4px 8px;
+    }
+    .sub_tab select{
+        width: 220px;
+    }
+    /* .top-tab{
+        justify-content: center;
+    } */
+    .royalty_points {
+        width: 300px;
+    }
+    .top_text{
+        line-height: 6px;
+        font-size: 14px;
+    }
+    .top_text_right h1{
+        font-size: 18px;
+    }
+    .top_text_right p{
+        font-size: 14px;
+    }
+    .bottom_left .divider{
+        width: 160px !important;
+        margin-top: 16px !important;
+    }
+    .bottom_right .square{
+        width: 80px;
+        height: 80px;
+    }
+    .bottom_right .square p{
+        font-size: 10px;
+    }
+    .circle_icon{
+        font-size: 26px;
+    }
+    .sub-barcode div{
+        width: 140px !important;
+        height: 24px !important;
+    }
+    .img-name img{
+        width: 32% !important;
+    }
+    .img-name div p{
+        font-size: 12px;
+    }
+    .amount .upper p{
+        font-size: 14px;
+    }
+    .main-amount div div button{
+        padding: 10px 12px !important;
+        font-size: 14px !important;
+    }
+    .bottom_left h3{
+        font-size: 14px
+    }
+    .top-tab{
+        gap: 4px;
+    }
+    /* .centering{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    } */
+    .product-bar li {
+        padding: 4px 8px;
+        border-radius: 10px;
+    }
+    .product-bar li a{
+        font-size: 12px;
+    }
+    .bottom{
+        margin-top: 12px;
+    }
+    .royalty_points_bottom {
+        padding: 2px 0;
+    }
+    .centering{
+        transform: translateX(6%);
+    }
+
+}
+
+
+@media (min-width: 769px) and (max-width: 999px) {
+    .point_of_sale_main{
+        gap: 12px;
+    }
+    .pos_1{
+        width: 100%;
+    }    
+    .pos_2{
+        width: 100%;
+    }
+    .tab-content.show{
+        overflow-x: hidden;
+    }
+    .product-bar{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        width: 470px;
+        height: 50px;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .product-bar ul{
+        gap: 22px;
+        padding-left: 8px;
+    }
+    .tabs{
+        padding-left: 8px;
+    }
+    .product-card{
+        width: 220px !important;
+        height: 160px !important;
+    }
+    .card-top img{
+        width: 50% !important;
+        height: 20%;
+    }
+    .card-top div{
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-top div h1{
+        font-size: 20px;
+        margin: 0;
+    }
+    .card-top div p{
+        font-size: 14px;
+        margin: 4px 0;
+    }
+    .card-bottom div button{
+        padding: 6px 10px !important;
+        font-size: 14px !important;
+        border-radius: 8px;
+    }
+    .bills{
+        width: 290px;
+    }
+    .sub_tab{
+        width: 240px;
+        padding: 4px 8px;
+    }
+    .sub_tab select{
+        width: 220px;
+    }
+    /* .top-tab{
+        justify-content: center;
+    } */
+    .royalty_points {
+        width: 300px;
+    }
+    .top_text{
+        line-height: 6px;
+        font-size: 14px;
+    }
+    .top_text_right h1{
+        font-size: 18px;
+    }
+    .top_text_right p{
+        font-size: 14px;
+    }
+    .bottom_left .divider{
+        width: 160px !important;
+        margin-top: 16px !important;
+    }
+    .bottom_right .square{
+        width: 80px;
+        height: 80px;
+    }
+    .bottom_right .square p{
+        font-size: 10px;
+    }
+    .circle_icon{
+        font-size: 26px;
+    }
+    .sub-barcode div{
+        width: 140px !important;
+        height: 24px !important;
+    }
+    .img-name img{
+        width: 32% !important;
+    }
+    .img-name div p{
+        font-size: 12px;
+    }
+    .amount .upper p{
+        font-size: 14px;
+    }
+    .main-amount div div button{
+        padding: 10px 12px !important;
+        font-size: 14px !important;
+    }
+    .bottom_left h3{
+        font-size: 14px
+    }
+    .top-tab{
+        gap: 4px;
+    }
+    /* .centering{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    } */
+    .product-bar li {
+        padding: 4px 8px;
+        border-radius: 10px;
+    }
+    .product-bar li a{
+        font-size: 12px;
+    }
+    .bottom{
+        margin-top: 12px;
+    }
+    .royalty_points_bottom {
+        padding: 2px 0;
+    }
+    .centering{
+        transform: translateX(6%);
+    }
+
+}

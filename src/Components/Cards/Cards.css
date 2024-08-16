@@ -1,0 +1,19 @@
+.product-card{
+    width: 320px;
+    height: 220px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-top: 16px;
+}
+.card-top{
+    display: flex;
+    padding: 6px 8px;
+}
+.card-top img{
+    width: 50%;
+}
+.card-bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
