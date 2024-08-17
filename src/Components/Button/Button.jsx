@@ -42,6 +42,7 @@ function Button(props) {
           showTextOnSmall,
           className,
           border,
+          onClick
         } = props;
 
   return (
@@ -58,6 +59,7 @@ function Button(props) {
         showTextOnSmall={showTextOnSmall}
         className={className}
         border={border}
+        onClick={onClick}
       >
         {iconPosition === 'before' && children}
           

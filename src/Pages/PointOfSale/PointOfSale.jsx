@@ -8,6 +8,7 @@ import book from '../../Images/book.png'
 import pen from '../../Images/pen.png'
 import Button from '../../Components/Button/Button'
 import { FaMinus, FaMinusCircle, FaPlusCircle, FaUser } from 'react-icons/fa'
+import Modal from '../../Components/SecondModal/ModalTwo'
 
 
 function PointOfSale() {
@@ -18,6 +19,9 @@ function PointOfSale() {
   const showTab = (tabId) => {
     setActiveTab(tabId)
   }
+
+  const [openModal, setOpenModal] = useState(false);
+
 
   return (
     <>
@@ -281,10 +285,10 @@ function PointOfSale() {
 
                     </div>
                     <div style={{marginTop: '8px'}}>
-                      <Button name='Proceed to Checkout' width='280px' padding='12px 20px' radius='10px' fontsize='18px' backcolor='#e4e4e4' />
+                      <Button name='Proceed to Checkout' onClick={() => (setOpenModal(true))} width='280px' padding='12px 20px' radius='10px' fontsize='18px' backcolor='#e4e4e4' />
                     </div>
                   </div>
-
+                    {openModal && <Modal onClose={() => setOpenModal(false)} />}
 
                 </div>
 

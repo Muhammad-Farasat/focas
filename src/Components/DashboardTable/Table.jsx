@@ -7,7 +7,7 @@ import { FaPlus, FaSearch } from "react-icons/fa";
 
 
 function Table(props) {
-    const {head, colGap} = props
+    const {head, colGap, perform} = props
   return (
     <>
         <div className={styles.main_1}>
@@ -30,7 +30,7 @@ function Table(props) {
                     />
                 </div>
                 <div className={styles.btn}>
-                    <Button name='Add New' className={styles.table_btn} radius='14px' padding='16px 20px' fontsize='16px' backcolor='white' iconPosition='before'>
+                    <Button name='Add New' onClick={perform} className={styles.table_btn} radius='14px' padding='16px 20px' fontsize='16px' backcolor='white' iconPosition='before'>
                         <FaPlus />
                     </Button>
                 </div>
