@@ -171,10 +171,11 @@ function Dashboard() {
                   <div className='middle_volume'>
                     <h3>Volume vs Service level</h3>
 
-                    
+                    <section>
                       <PieChart series={[{ data, innerRadius: 60 }]} {...size}>
                         <PieCenterLabel>Gender</PieCenterLabel>
                       </PieChart>
+                    </section>
 
 
                     <div className='divider' style={{ marginTop: '8px', opacity: '0.4', width: '100%' }}></div>
@@ -207,78 +208,83 @@ function Dashboard() {
                   <div className='middle_satisfaction'>
                     <h3 style={{padding: '0 12px'}}>Customer Satisfaction</h3>
 
-                    <ChartContainer
-                      width={340}
-                      height={190}
-                      series={[
-                        { type: 'line', data: pData1, name: 'Series 1' },
-                        { type: 'line', data: pData2, name: 'Series 2' },
-                      ]}
-                      xAxis={[{ scaleType: 'point', data: xLabels }]}
-                      sx={{
-                        [`& .${lineElementClasses.root}`]: {
-                          strokeWidth: 2,
-                        },
-                        [`& .${markElementClasses.root}`]: {
-                          scale: '0.7',
-                          fill: '#fff',
-                          strokeWidth: 2,
-                        },
-                      }}
-                      disableAxisListener
-                    >
-                      <LinePlot />
-                      <MarkPlot />
-                    </ChartContainer>
+                    <section>
+                      <ChartContainer
+                        width={340}
+                        height={190}
+                        series={[
+                          { type: 'line', data: pData1, name: 'Series 1' },
+                          { type: 'line', data: pData2, name: 'Series 2' },
+                        ]}
+                        xAxis={[{ scaleType: 'point', data: xLabels }]}
+                        sx={{
+                          [`& .${lineElementClasses.root}`]: {
+                            strokeWidth: 2,
+                          },
+                          [`& .${markElementClasses.root}`]: {
+                            scale: '0.7',
+                            fill: '#fff',
+                            strokeWidth: 2,
+                          },
+                        }}
+                        disableAxisListener
+                      >
+                        <LinePlot />
+                        <MarkPlot />
+                      </ChartContainer>
+                    </section>
+                      
+                        <div className='divider' style={{ marginTop: '8px', opacity: '0.4', width: '100%' }}></div>
+                        <div className='sub_middle_volume' style={{marginBottom: '8px'}}>
 
-
-                    <div className='divider' style={{ marginTop: '8px', opacity: '0.4', width: '100%' }}></div>
-                    <div className='sub_middle_volume' style={{marginBottom: '8px'}}>
-
-                      <div style={{lineHeight: '6px'}}>
-                        <div className='middle_volume_lower'>
-                        <div style={{height: '2.2px', width: '32px', backgroundColor: '#0095ff', display: 'flex', justifyContent: 'center', alignItems: 'center', borderRadius: '99px'}}>
-                          <div style={{height: '10px', width: '10px', backgroundColor: '#0095ff', borderRadius: '999px', zIndex: '999'}}></div>
+                          <div style={{lineHeight: '6px'}}>
+                            <div className='middle_volume_lower'>
+                            <div style={{height: '2.2px', width: '32px', backgroundColor: '#0095ff', display: 'flex', justifyContent: 'center', alignItems: 'center', borderRadius: '99px'}}>
+                              <div style={{height: '10px', width: '10px', backgroundColor: '#0095ff', borderRadius: '999px', zIndex: '999'}}></div>
+                              </div>
+                                <p style={{color: '#96A5B8'}}>Last Month</p>                          
+                            </div>
+                            <p className='num'>$3,004</p>
                           </div>
-                            <p style={{color: '#96A5B8'}}>Last Month</p>                          
-                        </div>
-                        <p className='num'>$3,004</p>
-                      </div>
 
 
-                      <div className='vertical_divider'></div>
+                          <div className='vertical_divider'></div>
 
-                      <div style={{lineHeight: '6px'}}>
-                        <div className='middle_volume_lower'>
-                          <div style={{height: '2.2px', width: '32px', backgroundColor: '#00E096', display: 'flex', justifyContent: 'center', alignItems: 'center', borderRadius: '99px'}}>
-                          <div style={{height: '10px', width: '10px', backgroundColor: '#00E096', borderRadius: '999px', zIndex: '999'}}></div>
+                          <div style={{lineHeight: '6px'}}>
+                            <div className='middle_volume_lower'>
+                              <div style={{height: '2.2px', width: '32px', backgroundColor: '#00E096', display: 'flex', justifyContent: 'center', alignItems: 'center', borderRadius: '99px'}}>
+                              <div style={{height: '10px', width: '10px', backgroundColor: '#00E096', borderRadius: '999px', zIndex: '999'}}></div>
+                              </div>
+                              
+                                <p style={{color: '#96A5B8'}}>This Month</p>                          
+                            </div>
+                            <p className='num'>$4,504</p>
                           </div>
-                          
-                            <p style={{color: '#96A5B8'}}>This Month</p>                          
+
+
                         </div>
-                        <p className='num'>$4,504</p>
-                      </div>
-
-
-                    </div>
+                      
 
                   </div>
                 </div>
                 <div className='' >
                   <div className='middle_target'>
                     <h3 style={{padding: '0 12px', marginBottom: '0'}}>Target vs Reality</h3>
-                    <BarChart
-                      series={[
-                        { data: xData },
-                        { data: yData }
-                        
-                      ]}
-                      xAxis={[{ scaleType: 'band', 
-                      data: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'July'] }]}
-                      height={180}
-                      width={346}
-                      leftAxis={null}
-                    />
+                    
+                    <section>
+                      <BarChart
+                        series={[
+                          { data: xData },
+                          { data: yData }
+                          
+                        ]}
+                        xAxis={[{ scaleType: 'band', 
+                        data: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'July'] }]}
+                        height={180}
+                        width={346}
+                        leftAxis={null}
+                      />
+                    </section>
 
                     <div>
 

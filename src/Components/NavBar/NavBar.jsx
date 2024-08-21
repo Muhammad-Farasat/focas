@@ -49,9 +49,11 @@ function NavBar(props) {
                       <li><Link to="/salereport">Sale Report</Link></li>  
                       <li><Link to="/vendor">Vendor</Link></li>
                       <div className='sideBar_btn'>
-                        <Button iconPosition='after' name='Log In' padding='8px 12px' radius='6px' hovcolor='#fff' hovercolor='#2E96FF' >
-                            <FaArrowRight />
-                        </Button>
+                        <Link to="/customer-dashboard-login">
+                          <Button iconPosition='after' name='Log In' padding='8px 12px' radius='6px' hovcolor='#fff' hovercolor='#2E96FF' >
+                              <FaArrowRight />
+                          </Button>
+                        </Link>
                       </div>       
                     </ul>      
                 </div>

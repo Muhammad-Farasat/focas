@@ -438,9 +438,8 @@
     .ts {
         font-size: 14px;
     }
-    .css-ox3vhn-MuiResponsiveChart-container{
+    .second_upper div{
         width: 240px !important;
-        height: 110px ;
     }
     .row{
         gap: 18px;
@@ -466,13 +465,13 @@
     .recent_purchase{
         width: 270px;
     }
-    .css-1blkw4v-MuiResponsiveChart-container{
+    .middle_volume section div{
         width: 240px !important;
     }
-    .css-1fueysg-MuiChartsSurface-root{
+    .middle_satisfaction section svg{
         width: 250px !important;
     }
-    .css-1hrxgtf-MuiResponsiveChart-container{
+    .middle_target section div{
         width: 250px !important;
     }
     .middle_low_stock h3, .middle_top_products h3{
@@ -512,6 +511,7 @@
     .boxes_main_1{
         display: flex;
         flex-wrap: wrap;
+        gap: 16px;
     }
     .sub-middle-dashboard {
         margin: 0 9px;
@@ -607,13 +607,13 @@
         width: 340px;
 
     }
-    .css-1blkw4v-MuiResponsiveChart-container{
+    .middle_volume section div{
         width: 340px !important;
     }
-    .css-1fueysg-MuiChartsSurface-root{
+    .middle_satisfaction section svg{
         width: 360px !important;
     }
-    .css-1hrxgtf-MuiResponsiveChart-container{
+    .middle_target section div{
         width: 360px !important;
     }
     .middle_low_stock h3, .middle_top_products h3{
