@@ -1,0 +1,1220 @@
+.upper-dashboard{
+    margin-top: 12px;    
+}
+.sub_upper_dashboard{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 16px;
+    flex-wrap: wrap;
+}
+.first_upper{
+    background-color: #fff;
+    border-radius: 12px;
+    width: 700px;
+    height: 250px;
+    padding: 8px 16px;
+}
+.container_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashboard_upper_left{
+    line-height: 14px;
+}
+.dashboard_upper_left h3{
+    font-size: 20px;
+}
+.dashboard_upper_left p{
+    color: #737791;
+}
+.main-square{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+.main-square .square{
+    width: 140px;
+    height: 136px;
+    /* margin-bottom: 8px; */
+    padding: 4px 12px;
+}
+.red{
+    background-color: #FFE2E5;
+}
+.orange{
+    background-color: #FFF4DE;
+}
+.green{
+    background-color: #DCFCE7;
+}
+.purple{
+    background-color: #F3E8FF;
+}
+.square_icon{
+    border-radius: 999px;
+    background-color: #FA5A7D;
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    font-size: 18px;
+}
+.square_icon_orange{
+    border-radius: 999px;
+    background-color: #FF947A;
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    font-size: 18px;
+}
+.square_icon_green{
+    border-radius: 999px;
+    background-color: #3CD856;
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    font-size: 18px;
+}
+.square_icon_purple{
+    border-radius: 999px;
+    background-color: #BF83FF;
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    font-size: 18px;
+}
+.ts{
+    color: #425166;
+}
+.sm{
+    font-size: 12px;
+    color: #4079ED;
+}
+.square_text{
+    margin-top: 18px;
+    line-height: 24px;
+}
+.square_text h3{
+    margin: 0;
+}
+.second_upper{
+    background-color: #fff;
+    border-radius: 12px;
+    width: 700px;
+    height: 250px;
+    padding: 14px 16px;
+}
+.second_upper h3{
+    margin: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+/* .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+.sub-middle-dashboard{
+    margin: 0 17px;
+}
+/* .boxes{
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+} */
+.middle-dashboard{
+    margin-top: 32px;
+}
+.middle_volume{
+    width: max-content;
+    height: max-content;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 4px 18px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.middle_satisfaction{
+    width: max-content;
+    height: max-content;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 8px;
+}
+.middle_target{
+    width: max-content;
+    height: max-content;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 8px;
+}
+.middle_top_products{
+    width: 540px;
+    height: max-content ;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 8px;
+}
+.middle_low_stock{
+    width: 540px;
+    height: max-content ;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 8px;
+}
+.middle_table{
+    width: 100%;
+    font-size: 14px;
+    /* table-layout: fixed; */
+    white-space: 6px;
+    border-collapse: collapse;
+    /* border-spacing: 23px; */
+}
+.middle_table td:nth-child(2) {
+    width: 30%;
+}
+.middle_table td:nth-child(1) {
+    width: 6%;
+} 
+.middle_table_head{
+    opacity: 0.6;
+}
+.middle_table tr {
+    border-bottom: 1px solid #ddd;
+}
+.middle_table td {
+    padding: 16px 10px;
+}
+.recent_purchase{
+    width: 360px;
+    height: 620px;
+    background-color: #fff;
+    padding: 10px 8px;
+    border-radius: 6px;
+}
+.recent{
+    padding: 0 6px;
+}
+.middle_volume_lower{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.sub_middle_volume{
+    line-height: 0px;
+    text-align: center;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.vertical_divider{
+    border-left: 1.6px solid #6b6b6b9c;
+    height: 20px;
+}
+.shopping_icon{
+    height: 30px;
+    width:  30px;
+    background-color: #E2FFF3;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_middle_target_1{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.shopping_icon_2{
+    height: 30px;
+    width:  30px;
+    background-color: #e2efff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.num{
+    margin: 0;
+}
+.btn_to_dashboard{
+    width: 360px;
+    height: 60px;
+    background-color: #fff;
+
+}
+.sub_middle_dashboard_main{
+    display: flex;
+}
+.middle_dashboard_left{
+    width: 70%;
+}
+.middle_dashboard_right{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+.boxes_main{
+    display: flex;
+    column-gap: 32px;
+    /* justify-content: space-between; */
+}
+.boxes_main_1{
+    column-gap: 12px;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Grid Starts Here */
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+/* @media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+} */
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-9 {
+        flex: 0 0 auto;
+        width: 75%;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-2 {
+        flex: 0 0 auto;
+        width: 16.66666667%;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-10 {
+        flex: 0 0 auto;
+        width: 83.33333333%;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+}
+
+
+/* Grid Ends Here */
+
+
+@media not all and (min-width: 399px) {
+    .first_upper{
+        height: max-content;
+        padding: 16px 8px;
+        width: max-content;
+    }
+    .second_upper{
+        width: max-content;
+    }
+    .sub_upper_dashboard{
+        gap: 12px;
+    }
+    .dashboard_upper_left h3 {
+        font-size: 18px;
+        margin: 0;
+    }
+    .dashboard_upper_left p {
+        font-size: 14px;
+        margin: 0;
+    }
+    .dashboard_upper_left{
+        line-height: 22px;
+    }
+    .main-square .square{
+        width: 110px;
+        height: 116px;
+        margin-bottom: 8px;
+    }
+    .square_icon{
+        width: 26px;
+        height: 26px;
+        font-size: 15px;
+    }
+    .square_icon_orange{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_icon_green{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_icon_purple{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_text{
+        margin-top: 8px;
+    }
+    .sm{
+        line-height: 16px;
+        font-size: 10px;
+    }
+    .square_text h3 {
+        font-size: 17px;
+    }
+    .ts {
+        font-size: 14px;
+    }
+    .second_upper div{
+        width: 240px !important;
+    }
+    .row{
+        gap: 18px;
+    }
+    .middle_top_products{
+        width: 260px;
+    }
+    .middle_table td {
+        padding: 10px 10px;
+    }
+    /* Button .text{
+        font-size: 10px !important;
+    } */
+    td Button{
+        padding: 4px !important;
+    }
+    .middle_low_stock{
+        width: 260px;
+    }
+    .middle_table{
+        font-size: 12px !important;
+    }
+    .recent_purchase{
+        width: 270px;
+    }
+    .middle_volume section div{
+        width: 240px !important;
+    }
+    .middle_satisfaction section svg{
+        width: 250px !important;
+    }
+    .middle_target section div{
+        width: 250px !important;
+    }
+    .middle_low_stock h3, .middle_top_products h3{
+        font-size: 16px
+    }
+    .middle_volume_lower p{
+        font-size: 14px;
+    }
+    .num{
+        font-size: 14px;
+    }
+    /* .img-name img{
+        width: 22% !important;
+    } */
+    .img-name div h3{
+        font-size: 16px;
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+    }
+    .sub_middle_dashboard_main{
+        display: block;
+    }
+    .middle_dashboard_left{
+        width: 100%;
+    }
+    .middle_dashboard_right{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .boxes_main{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 26px;
+    }
+    .boxes_main_1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    .sub-middle-dashboard {
+        margin: 0 9px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 599px) {
+    .first_upper{
+        height: max-content;
+        padding: 16px 8px;
+    }
+    .second_upper{
+        width: max-content;
+    }
+    .sub_upper_dashboard{
+        gap: 12px;
+    }
+    .dashboard_upper_left h3 {
+        font-size: 18px;
+        margin: 0;
+    }
+    .dashboard_upper_left p {
+        font-size: 14px;
+        margin: 0;
+    }
+    .dashboard_upper_left{
+        line-height: 22px;
+    }
+    .main-square .square{
+        width: 110px;
+        height: 116px;
+        margin-bottom: 8px;
+    }
+    .square_icon{
+        width: 26px;
+        height: 26px;
+        font-size: 15px;
+    }
+    .square_icon_orange{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_icon_green{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_icon_purple{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_text{
+        margin-top: 8px;
+    }
+    .sm{
+        line-height: 16px;
+        font-size: 10px;
+    }
+    .square_text h3 {
+        font-size: 17px;
+    }
+    .ts {
+        font-size: 14px;
+    }
+    .css-ox3vhn-MuiResponsiveChart-container{
+        width: 340px !important;
+        height: 110px ;
+    }
+    .row{
+        gap: 18px;
+    }
+    .middle_top_products{
+        width: 360px;
+    }
+    .middle_table td {
+        padding: 10px 10px;
+    }
+    /* Button .text{
+        font-size: 10px !important;
+    } */
+    td Button{
+        padding: 4px !important;
+    }
+    .middle_low_stock{
+        width: 360px;
+    }
+    .middle_table{
+        font-size: 12px !important;
+    }
+    .recent_purchase{
+        width: 340px;
+
+    }
+    .middle_volume section div{
+        width: 340px !important;
+    }
+    .middle_satisfaction section svg{
+        width: 360px !important;
+    }
+    .middle_target section div{
+        width: 360px !important;
+    }
+    .middle_low_stock h3, .middle_top_products h3{
+        font-size: 16px
+    }
+    .middle_volume_lower p{
+        font-size: 14px;
+    }
+    .num{
+        font-size: 14px;
+    }
+    /* .img-name img{
+        width: 22% !important;
+    } */
+    .img-name div h3{
+        font-size: 16px;
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+    }
+    .sub_middle_dashboard_main{
+        display: block;
+    }
+    .middle_dashboard_left{
+        width: 100%;
+    }
+    .middle_dashboard_right{
+        width: 100%;
+        justify-content: center;
+    }
+    .boxes_main{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 26px;
+    }
+    .boxes_main_1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+    .sub-middle-dashboard {
+        margin: 0 9px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+    .first_upper{
+        height: max-content;
+        padding: 16px 8px;
+    }
+    .second_upper{
+        width: max-content;
+    }
+    .sub_upper_dashboard{
+        gap: 12px;
+    }
+    .dashboard_upper_left h3 {
+        font-size: 18px;
+        margin: 0;
+    }
+    .dashboard_upper_left p {
+        font-size: 14px;
+        margin: 0;
+    }
+    .dashboard_upper_left{
+        line-height: 22px;
+    }
+    .main-square .square{
+        width: 110px;
+        height: 116px;
+        margin-bottom: 8px;
+    }
+    .square_icon{
+        width: 26px;
+        height: 26px;
+        font-size: 15px;
+    }
+    .square_icon_orange{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_icon_green{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_icon_purple{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_text{
+        margin-top: 8px;
+    }
+    .sm{
+        line-height: 16px;
+        font-size: 10px;
+    }
+    .square_text h3 {
+        font-size: 17px;
+    }
+    .ts {
+        font-size: 14px;
+    }
+    .css-ox3vhn-MuiResponsiveChart-container{
+        width: 530px !important;
+        height: 110px ;
+    }
+    .row{
+        gap: 18px;
+    }
+    .middle_top_products{
+        width: 500px;
+    }
+    .middle_table td {
+        padding: 10px 10px;
+    }
+    /* Button .text{
+        font-size: 10px !important;
+    } */
+    td Button{
+        padding: 4px !important;
+    }
+    .middle_low_stock{
+        width: 500px;
+    }
+    .middle_table{
+        font-size: 12px !important;
+    }
+    .recent_purchase{
+        width: 340px;
+
+    }
+    .css-1blkw4v-MuiResponsiveChart-container{
+        width: 240px !important;
+    }
+    .css-1fueysg-MuiChartsSurface-root{
+        width: 260px !important;
+    }
+    .css-1hrxgtf-MuiResponsiveChart-container{
+        width: 360px !important;
+    }
+    .middle_low_stock h3, .middle_top_products h3{
+        font-size: 16px
+    }
+    .middle_volume_lower p{
+        font-size: 14px;
+    }
+    .num{
+        font-size: 14px;
+    }
+    /* .img-name img{
+        width: 22% !important;
+    } */
+    .img-name div h3{
+        font-size: 16px;
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+    }
+    .sub_middle_dashboard_main{
+        display: block;
+    }
+    .middle_dashboard_left{
+        width: 100%;
+    }
+    .middle_dashboard_right{
+        width: 100%;
+        justify-content: center;
+    }
+    .boxes_main{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 26px;
+        justify-content: center;
+    }
+    .boxes_main_1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px;
+        justify-content: center;
+    }
+    .sub-middle-dashboard {
+        margin: 0 9px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 900px){
+    .first_upper{
+        height: max-content;
+        padding: 16px 8px;
+    }
+    .second_upper{
+        width: max-content;
+    }
+    .sub_upper_dashboard{
+        gap: 12px;
+    }
+    .dashboard_upper_left h3 {
+        font-size: 18px;
+        margin: 0;
+    }
+    .dashboard_upper_left p {
+        font-size: 14px;
+        margin: 0;
+    }
+    .dashboard_upper_left{
+        line-height: 22px;
+    }
+    .main-square .square{
+        width: 110px;
+        height: 116px;
+        margin-bottom: 8px;
+    }
+    .square_icon{
+        width: 26px;
+        height: 26px;
+        font-size: 15px;
+    }
+    .square_icon_orange{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_icon_green{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_icon_purple{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_text{
+        margin-top: 8px;
+    }
+    .sm{
+        line-height: 16px;
+        font-size: 10px;
+    }
+    .square_text h3 {
+        font-size: 17px;
+    }
+    .ts {
+        font-size: 14px;
+    }
+    .css-ox3vhn-MuiResponsiveChart-container{
+        width: 680px !important;
+        height: 110px ;
+    }
+    .row{
+        gap: 18px;
+    }
+    .middle_top_products{
+        width: 410px;
+    }
+    .middle_table td {
+        padding: 10px 10px;
+    }
+    /* Button .text{
+        font-size: 10px !important;
+    } */
+    td Button{
+        padding: 4px !important;
+    }
+    .middle_low_stock{
+        width: 410px;
+    }
+    .middle_table{
+        font-size: 12px !important;
+    }
+    .recent_purchase{
+        width: 340px;
+
+    }
+    .css-1blkw4v-MuiResponsiveChart-container{
+        width: 220px !important;
+    }
+    .css-1fueysg-MuiChartsSurface-root{
+        width: 220px !important;
+    }
+    .css-1hrxgtf-MuiResponsiveChart-container{
+        width: 270px !important;
+    }
+    .middle_low_stock h3, .middle_top_products h3{
+        font-size: 16px
+    }
+    .middle_volume_lower p{
+        font-size: 14px;
+    }
+    .num{
+        font-size: 14px;
+    }
+    /* .img-name img{
+        width: 22% !important;
+    } */
+    .img-name div h3{
+        font-size: 16px;
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+    }
+    .sub_middle_dashboard_main{
+        display: block;
+    }
+    .middle_dashboard_left{
+        width: 100%;
+    }
+    .middle_dashboard_right{
+        width: 100%;
+        justify-content: center;
+    }
+    .boxes_main{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 26px;
+        justify-content: center;
+    }
+    .boxes_main_1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px;
+        justify-content: center;
+    }
+    .sub-middle-dashboard {
+        margin: 0 9px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1024px){
+    .first_upper{
+        height: max-content;
+        padding: 16px 8px;
+    }
+    .second_upper{
+        width: max-content;
+    }
+    .sub_upper_dashboard{
+        gap: 12px;
+    }
+    .dashboard_upper_left h3 {
+        font-size: 18px;
+        margin: 0;
+    }
+    .dashboard_upper_left p {
+        font-size: 14px;
+        margin: 0;
+    }
+    .dashboard_upper_left{
+        line-height: 22px;
+    }
+    .main-square .square{
+        width: 110px;
+        height: 116px;
+        margin-bottom: 8px;
+    }
+    .square_icon{
+        width: 26px;
+        height: 26px;
+        font-size: 15px;
+    }
+    .square_icon_orange{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_icon_green{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_icon_purple{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_text{
+        margin-top: 8px;
+    }
+    .sm{
+        line-height: 16px;
+        font-size: 10px;
+    }
+    .square_text h3 {
+        font-size: 17px;
+    }
+    .ts {
+        font-size: 14px;
+    }
+    .css-ox3vhn-MuiResponsiveChart-container{
+        width: 680px !important;
+        height: 110px ;
+    }
+    .row{
+        gap: 18px;
+    }
+    .middle_top_products{
+        width: 410px;
+    }
+    .middle_table td {
+        padding: 10px 10px;
+    }
+    /* Button .text{
+        font-size: 10px !important;
+    } */
+    td Button{
+        padding: 4px !important;
+    }
+    .middle_low_stock{
+        width: 410px;
+    }
+    .middle_table{
+        font-size: 12px !important;
+    }
+    .recent_purchase{
+        width: 340px;
+
+    }
+    .css-1blkw4v-MuiResponsiveChart-container{
+        width: 220px !important;
+    }
+    .css-1fueysg-MuiChartsSurface-root{
+        width: 220px !important;
+    }
+    .css-1hrxgtf-MuiResponsiveChart-container{
+        width: 270px !important;
+    }
+    .middle_low_stock h3, .middle_top_products h3{
+        font-size: 16px
+    }
+    .middle_volume_lower p{
+        font-size: 14px;
+    }
+    .num{
+        font-size: 14px;
+    }
+    /* .img-name img{
+        width: 22% !important;
+    } */
+    .img-name div h3{
+        font-size: 16px;
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+    }
+    .sub_middle_dashboard_main{
+        display: block;
+    }
+    .middle_dashboard_left{
+        width: 100%;
+    }
+    .middle_dashboard_right{
+        width: 100%;
+        justify-content: center;
+    }
+    .boxes_main{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 26px;
+        justify-content: center;
+    }
+    .boxes_main_1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px;
+        justify-content: center;
+    }
+    .sub-middle-dashboard {
+        margin: 0 9px;
+    }
+}
+
+
+
+
+/* @media (max-width: 768px) {
+    .first_upper{
+        height: max-content;
+        padding: 16px 8px;
+    }
+    .sub_upper_dashboard{
+        gap: 12px;
+    }
+    .dashboard_upper_left h3 {
+        font-size: 18px;
+        margin: 0;
+    }
+    .dashboard_upper_left p {
+        font-size: 14px;
+        margin: 0;
+    }
+    .dashboard_upper_left{
+        line-height: 22px;
+    }
+    .main-square .square{
+        width: 110px;
+        height: 116px;
+        margin-bottom: 8px;
+    }
+    .square_icon{
+        width: 26px;
+        height: 26px;
+        font-size: 15px;
+    }
+    .square_icon_orange{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_icon_green{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_icon_purple{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .square_text{
+        margin-top: 8px;
+    }
+    .sm{
+        line-height: 16px;
+        font-size: 10px;
+    }
+    .square_text h3 {
+        font-size: 17px;
+    }
+    .ts {
+        font-size: 14px;
+    }
+    .css-ox3vhn-MuiResponsiveChart-container{
+        width: 690px ;
+        height: 110px ;
+    }
+    .row{
+        column-gap: 148px;
+    }
+    .middle_top_products{
+        width: 420px;
+    }
+    .middle_table td {
+        padding: 10px 10px;
+    }
+    Button .text{
+        font-size: 10px !important;
+    }
+    td Button{
+        padding: 4px !important;
+    }
+    .middle_low_stock{
+        width: 420px;
+    }
+    .middle_table{
+        font-size: 12px !important;
+    }
+    .recent_purchase{
+        width: 300px;
+    }
+    .css-1blkw4v-MuiResponsiveChart-container{
+        width: 270px !important;
+    }
+    .css-1fueysg-MuiChartsSurface-root{
+        width: 290px !important;
+    }
+    .css-1hrxgtf-MuiResponsiveChart-container{
+        width: 290px !important;
+    }
+    .middle_low_stock h3, .middle_top_products h3{
+        font-size: 16px
+    }
+    .middle_volume_lower p{
+        font-size: 14px;
+    }
+    .num{
+        font-size: 14px;
+    }
+    .img-name img{
+        width: 22% !important;
+    }
+    .img-name div h3{
+        font-size: 16px;
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+    }
+    .recent_purchase{
+        margin-bottom: 18px;
+    }
+    .responsive-middle{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+} */
+
