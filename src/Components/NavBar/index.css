@@ -1,0 +1,209 @@
+@font-face {
+    font-family: Inter-light;
+    src: url(/src/Fonts/Inter-Light.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(/src/Fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: Inter-medium;
+    src: url(/src/Fonts/Inter-Medium.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+nav{
+    background-color: #fff;
+    height: 60px;
+    /* display: flex;
+    justify-content: center; */
+}
+.logo{
+    width: 12%;
+    padding: 6px 0;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.sub-main{
+    /* width: 1536px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+}
+.title{
+    font-family: Inter;
+}
+.title h2{
+    margin: 0;
+}
+.title p{
+    margin: 0;
+    font-size: 12px;
+}
+.notifi_icon{
+    font-size: 26px;
+    z-index: 999;
+    position: relative;
+    cursor: pointer;
+}
+.sideBar{
+    width: 360px;
+    height: 100vh;
+    backdrop-filter: blur(6px);
+    background-color: #ffffffad;
+    z-index: 9;
+    /* box-shadow: -2px 0px 5px 2px rgba(0,0,0,0.44); */
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* transform: translateX(100%); */
+    display: none;
+    transition: ease-in-out;
+    transition-delay: 8ms;
+}
+.sideBar_list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 82px;
+}
+.sideBar_btn{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 12px;
+    /* font-size: 18px; */
+}
+.sideBar_btn button{
+    font-size: 15px !important;
+    padding: 6px 10px !important;
+}
+.sideBar_list li{
+
+    :hover{
+        color: #2E96FF;
+    }
+    :active{
+        color: #2E96FF;
+    }
+}
+.sideBar.visible{
+    box-shadow: -2px 0px 5px 2px rgba(0, 0, 0, 0.219);
+    /* transform: translateX(0); */
+    display: block;
+}
+.sideBar.hidden{
+    /* transform: translateX(100%); */
+    box-shadow: none;
+    display: none;
+}
+
+
+
+
+
+@media (max-width: 399px){
+    nav{
+        height: max-content;
+    }
+    .sub-main{
+         /* width: 100%;
+         gap: 16px;
+         justify-content: space-around; */
+         padding: 6px 6px;
+    }
+    .logo{
+        width: 26%;
+     }
+    .title h2{
+        font-size: 14px;
+    }
+    .title p{
+        font-size: 7px;
+    }
+    .notifi_icon{
+        font-size: 20px;
+    }
+    .sideBar{
+        width: 260px;
+    }
+
+}
+
+ 
+@media (min-width: 400px) and (max-width: 599px) {
+    nav{
+        height: max-content;
+    }
+    .sub-main{
+         /* width: 100%;
+         gap: 16px;
+         justify-content: space-around; */
+         height: max-content;
+         padding: 6px 6px;
+    }
+    .logo{
+         width: 22%;
+     }
+     .title h2{
+         font-size: 16px;
+     }
+     .title p{
+         font-size: 8px;
+     }
+     .notifi_icon{
+         font-size: 20px;
+     }
+ }
+
+@media (min-width: 600px) and (max-width: 799px) {
+   .sub-main{
+        /* width: 100%;
+        gap: 16px;
+        justify-content: space-around; */
+        height: max-content;
+        padding: 12px 6px;
+   }
+   .logo{
+        width: 18%;
+    }
+    .title h2{
+        font-size: 18px;
+    }
+    .title p{
+        font-size: 8px;
+    }
+    .notifi_icon{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+    .sub-main{
+         /* width: 100%;
+         gap: 16px;
+         justify-content: space-around; */
+         height: max-content;
+         padding: 12px 6px;
+    }
+    .logo{
+         width: 18%;
+     }
+     .title h2{
+         font-size: 18px;
+     }
+     .title p{
+         font-size: 8px;
+     }
+     .notifi_icon{
+         font-size: 20px;
+     }
+ }

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Inter-light;
+    src: url(/src/Assets/Fonts/Inter-Light.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(/src/Assets/Fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: Inter-medium;
+    src: url(/src/Assets/Fonts/Inter-Medium.ttf);
+}

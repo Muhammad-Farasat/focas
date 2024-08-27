@@ -1,0 +1,402 @@
+@font-face {
+    font-family: Inter-light;
+    src: url(/src/Assets/Fonts/Inter-Light.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(/src/Assets/);
+}
+@font-face {
+    font-family: Inter-medium;
+    src: url(/src/Assets/Fonts/Inter-Medium.ttf);
+}
+.main{
+    display: flex;
+}
+.left{
+    background-color: #FFE259;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    font-family: Inter-medium;
+    padding: 12px auto;
+    height: 100vh;
+}
+.left img{
+    width: 80%;
+    position: relative;
+    left: 4%;
+}
+.heading_login{
+    position: relative;
+    left: 4%;
+    margin-top: 6%;
+}
+.heading_login h1{
+    font-size: 60px;
+    margin-bottom: 0;
+    font-family: Inter;
+}
+.heading_login p{
+    margin-top: 0;
+    font-size: 25px;
+    font-family: Inter-light;
+}
+/* THE RIGHT SIDE OF PAGE */
+.right{
+    width: 100%;
+    padding-left: 4%;
+    margin-top: 8%;
+}
+.text2 h1{
+    font-size: 60px;
+    margin-bottom: 0;
+    font-family: Inter;
+}
+.text2 p{
+    margin-top: 0;
+    font-size: 25px;
+    font-family: Inter-light;
+}
+.form{
+    margin-top: 8%;
+    width: max-content;
+}
+.top_form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+a{
+    text-decoration: none;
+    color: #111;
+    font-family: Inter;
+    font-weight: 600;
+    text-align: right;
+}
+Input{
+    width: 52%;
+    padding: 22px 20px;
+    background-color: #E2E2E299;
+    border: transparent;
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+}
+/* Button{
+} */
+/* .btn{
+    position: relative;
+    left: 4%;
+} */
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.login_btn{
+    margin-top: 22px;
+    display: block !important;
+}
+.forgot_pass{
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+@media not all and (min-width: 399px) {
+    .left{
+        display: none;
+    }
+    .right{
+        height: 100vh;
+        margin-top: 0;
+        background-image: linear-gradient(to bottom, #FFE259, #FFA751);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right_1{
+        margin-top: 28% !important;
+    }
+    .text2{
+        text-align: center;
+        margin-bottom: 6rem;
+    }
+    .text2 h1{
+        font-size: 32px;
+    }
+    .text2 p{
+        font-size: 14px;
+    }
+    .from{
+        margin-top: 0;
+        display: flex;
+    }
+    .form{
+        width: 100%;
+    }
+    .top_form div{
+        width: 250px;
+        padding: 6px 16px;
+        padding-left: 16px;
+        font-size: 16px;
+    }
+    .top_form Input{
+        font-size: 14px !important;
+        padding-left: 12px;
+    }
+    .login_btn{
+        width: 240px !important;
+        padding: 10px !important;
+        font-size: 16px !important;
+    }
+    a{
+        font-size: 14px;
+        text-align: end;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 599px) {
+    .left{
+        display: none;
+    }
+    .right{
+        height: 100vh;
+        margin-top: 0;
+        background-image: linear-gradient(to bottom, #FFE259, #FFA751);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right_1{
+        margin-top: 28% !important;
+    }
+    .text2{
+        text-align: center;
+        margin-bottom: 6rem;
+    }
+    .text2 h1{
+        font-size: 32px;
+    }
+    .text2 p{
+        font-size: 14px;
+    }
+    .from{
+        margin-top: 0;
+        display: flex;
+    }
+    .form{
+        width: 100%;
+    }
+    .top_form div{
+        width: 250px;
+        padding: 6px 16px;
+        padding-left: 16px;
+        font-size: 16px;
+    }
+    .top_form Input{
+        font-size: 14px !important;
+        padding-left: 12px;
+    }
+    .login_btn{
+        width: 240px !important;
+        padding: 10px !important;
+        font-size: 16px !important;
+    }
+    a{
+        font-size: 14px;
+        text-align: end;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .left{
+        display: none;
+    }
+    .right{
+        height: 100vh;
+        margin-top: 0;
+        background-image: linear-gradient(to bottom, #FFE259, #FFA751);
+        /* background-color: #fff; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right_1{
+        margin-top: 18% !important;
+    }
+    .text2{
+        text-align: center;
+        margin-bottom: 6rem;
+    }
+    .text2 h1{
+        font-size: 42px;
+    }
+    .text2 p{
+        font-size: 14px;
+    }
+    .from{
+        margin-top: 0;
+        display: flex;
+    }
+    .form{
+        width: 100%;
+    }
+    .top_form div{
+        width: 250px;
+        padding: 6px 16px;
+        padding-left: 16px;
+        font-size: 16px;
+    }
+    .top_form Input{
+        font-size: 14px !important;
+        padding-left: 12px;
+    }
+    .login_btn{
+        width: 278px !important;
+        padding: 10px !important;
+        font-size: 16px !important;
+    }
+    a{
+        font-size: 14px;
+        text-align: end;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 999px) {
+    .left{
+        display: none;
+    }
+    .right{
+        height: 100vh;
+        margin-top: 0;
+        background-image: linear-gradient(to bottom, #FFE259, #FFA751);
+        /* background-color: #fff; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right_1{
+        margin-top: 18% !important;
+    }
+    .text2{
+        text-align: center;
+        margin-bottom: 6rem;
+    }
+    .text2 h1{
+        font-size: 42px;
+    }
+    .text2 p{
+        font-size: 14px;
+    }
+    .from{
+        margin-top: 0;
+        display: flex;
+    }
+    .form{
+        width: 100%;
+    }
+    .top_form div{
+        width: 350px;
+        padding: 6px 16px;
+        padding-left: 16px;
+        font-size: 16px;
+    }
+    .top_form Input{
+        font-size: 14px !important;
+        padding-left: 12px;
+    }
+    .login_btn{
+        width: 370px !important;
+        padding: 10px !important;
+        font-size: 16px !important;
+    }
+    a{
+        font-size: 14px;
+        text-align: end;
+    }  
+}
+
+@media  (min-width: 1000px) and (max-width: 1024px) {
+    .left{
+        width: 80%;
+    }
+    .text h1{
+        font-size: 38px;
+    }
+    .text p{
+        font-size: 18px;
+    }
+    .right h1{
+        font-size: 38px;
+    }
+    .right p{
+        font-size: 18px;
+    }
+    .form{
+        margin-top: 16%;
+    }
+    a{
+        font-size: 14px;
+        text-align: end;
+    }
+    .top_form div{
+        width: 380px;
+        padding: 6px 16px;
+        padding-left: 16px;
+        font-size: 16px;
+    }
+    .top_form Input{
+        font-size: 14px !important;
+        padding-left: 12px;
+    }
+    .btn{
+        display: block;
+    }
+    .login_btn{
+        width: 390px ;
+        padding: 10px ;
+        font-size: 16px ;
+    }
+    .heading_login h1{
+        font-size: 38px;
+    }
+    .heading_login p{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .left{
+        width: 80%;
+    }
+    .text h1{
+        font-size: 38px;
+    }
+    .text p{
+        font-size: 18px;
+    }
+    .right h1{
+        font-size: 38px;
+    }
+    .right p{
+        font-size: 18px;
+    }
+    .form{
+        margin-top: 16%;
+    }
+    a{
+        font-size: 14px;
+        text-align: end;
+    }
+    Input{
+        width: 83%;
+        font-size: 14px;
+    }
+    Button{
+        width: 93%;
+        font-size: 16px;
+        padding: 16px;
+    }
+}
