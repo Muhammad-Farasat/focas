@@ -390,6 +390,7 @@
     }
     .sub_upper_dashboard{
         gap: 12px;
+        justify-content: center;
     }
     .dashboard_upper_left h3 {
         font-size: 18px;
@@ -447,7 +448,7 @@
         gap: 18px;
     }
     .middle_top_products{
-        width: 260px;
+        width: 290px;
     }
     .middle_table td {
         padding: 10px 10px;
@@ -459,22 +460,23 @@
         padding: 4px !important;
     }
     .middle_low_stock{
-        width: 260px;
+        width: 290px;
     }
     .middle_table{
         font-size: 12px !important;
     }
     .recent_purchase{
-        width: 270px;
+        width: 330px;
+        margin-bottom: 18px;
     }
     .middle_volume section div{
-        width: 240px !important;
+        width: 260px !important;
     }
     .middle_satisfaction section svg{
-        width: 250px !important;
+        width: 290px !important;
     }
     .middle_target section div{
-        width: 250px !important;
+        width: 290px !important;
     }
     .middle_low_stock h3, .middle_top_products h3{
         font-size: 16px
@@ -508,11 +510,13 @@
     .boxes_main{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         gap: 26px;
     }
     .boxes_main_1{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         gap: 16px;
     }
     .sub-middle-dashboard {
@@ -606,8 +610,7 @@
         font-size: 12px !important;
     }
     .recent_purchase{
-        width: 340px;
-
+        margin-bottom: 16px;
     }
     .middle_volume section div{
         width: 340px !important;
@@ -645,7 +648,7 @@
     }
     .middle_dashboard_right{
         width: 100%;
-        justify-content: center;
+        justify-content: flex-start;
     }
     .boxes_main{
         display: flex;

@@ -34,7 +34,7 @@ function CustomerDashboard() {
             />
           </div>
         </div>
-        <div className="cards">
+        <div className="activity_cards">
           <div className="card_1">
             <h2>Accounts Summary</h2>
             <p>256k</p>

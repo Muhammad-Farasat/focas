@@ -31,6 +31,7 @@ function PointOfSale() {
     <section className='' style={{marginTop: '22px'}}>
         <div className='point_of_sale_main'>
             <div className='pos_1'>
+              
               <div>
                 <ul className='tabs'>
 
@@ -120,6 +121,8 @@ function PointOfSale() {
               </div>
 
             </div>
+
+            
             <div className='pos_2'>
 
             {/* ------------------BILLS-------------- */}
@@ -297,6 +300,8 @@ function PointOfSale() {
            
            
             </div>
+
+
         </div>
     </section>
 

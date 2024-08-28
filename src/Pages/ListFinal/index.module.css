@@ -1,0 +1,13 @@
+.img_width{
+    width: 20%;
+}
+
+
+@media not all and (min-width: 399px) {
+    .img_width{
+        width: 40%;
+    }
+    .action_btn{
+        font-size: 8px !important;
+    }
+}

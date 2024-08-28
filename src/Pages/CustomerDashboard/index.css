@@ -31,7 +31,7 @@ body{
     margin: 0;
     font-size: 20px;
 }
-.cards{
+.activity_cards{
     margin-top: 2rem;
     margin-left: 2rem;
     display: flex;
@@ -103,7 +103,7 @@ body{
 
 
 
-@media not all and (min-width: 480px) {
+@media not all and (min-width: 399px) {
     .btn div button{
         padding: 8px !important;
         width: 180px !important;
@@ -143,7 +143,9 @@ body{
     .card_1{
         width: 270px;
     }
-    .cards {
+    .activity_cards {
+        justify-content: center;
+        flex-wrap: wrap;
         gap: 6px;
         margin-left: 0;
     }
@@ -186,7 +188,7 @@ body{
 
 }
 
-@media not all and (min-width: 648px) {
+@media (min-width: 400px) and (max-width: 599px) {
     .btn div button{
         padding: 8px !important;
         width: 180px !important;
@@ -226,7 +228,92 @@ body{
     .card_1{
         width: 270px;
     }
-    .cards {
+    .activity_cards {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-left: 0;
+    }
+    .card_1 p {
+        font-size: 20px;
+    }
+    .card_1 h2 {
+        font-size: 20px;
+    }
+    .activities h2 {
+        font-size: 20px;
+        margin-left: 8px;
+        margin-top: 28px;
+    }
+    .right_one{
+        width: 100%;
+        padding: 0;
+    }
+    .right_one .top{
+        padding: 0 8px;
+    }
+    .right_one .top h2{
+        font-size: 22px;
+    }
+    .customer_card{
+        width: 260px !important;
+        height: 180px !important;
+    }
+    .customer_card p{
+        font-size: 14px;
+    }
+    .customer_dashboard_middle{
+        margin-top: 10px;
+    }
+    .bottom{
+        margin-top: 38px;
+        padding: 0 8px;
+        border: 0;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 784px) {
+    .btn div button{
+        padding: 8px !important;
+        width: 180px !important;
+        font-size: 14px !important;
+    }
+    .customer_main{
+        display: block;
+    }
+    .left_1{
+        width: 100%;
+        border: 0;
+        border-bottom: 1px solid #c8c7c7;
+    }
+    .welcome{
+        width: 100%;
+        height: 180px;
+        display: flex;
+        padding-left: 0;
+        flex-direction: column;
+        gap: 14px;
+    }
+    .welcome h1{
+        font-size: 42px;
+    } 
+    .welcome p{
+        font-size: 16px;
+    } 
+    .btn{
+        margin-top: 22px;
+    }
+    .heading{
+        padding-top: 16px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card_1{
+        width: 270px;
+    }
+    .activity_cards {
         gap: 6px;
         margin-left: 0;
     }
@@ -266,7 +353,7 @@ body{
 
 }
 
-@media not all and (min-width: 784px) {
+@media (min-width: 785px) and (max-width: 999px) {
     .btn div button{
         padding: 8px !important;
         width: 180px !important;
@@ -306,7 +393,7 @@ body{
     .card_1{
         width: 270px;
     }
-    .cards {
+    .activity_cards {
         gap: 6px;
         margin-left: 0;
     }
@@ -345,7 +432,7 @@ body{
 
 }
 
-@media not all and (min-width: 1024px) {
+@media (min-width: 1000px) and (max-width: 1280px) {
     .btn div button{
         padding: 8px !important;
         width: 180px !important;
@@ -385,9 +472,9 @@ body{
     .card_1{
         width: 270px;
     }
-    .cards {
+    .activity_cards {
         gap: 6px;
-        margin-left: 0;
+        margin: 16px auto;
     }
     .card_1 p {
         font-size: 20px;

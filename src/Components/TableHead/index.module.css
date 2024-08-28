@@ -34,106 +34,8 @@ body {
     font-size: 34px;
 }
 
-@media not all and (min-width: 1024px) {
-    body {
-        overflow-x: hidden;
-    }
-    .sub_main_1 {
-        height: 50px;
-        column-gap: 34px !important;
-        justify-content: space-between;
-    }
-    .heading h2 {
-        font-size: 16px;
-    }
-    button {
-        /* width: 100px !important; */
-        padding: 8px !important;
-        font-size: 12px !important;
-        width: 100% !important;
-    }
-    Button{
-        gap: 4px !important;
-    }
-    .input{
-        width: 200px !important;
-        height: 28px !important;
-        font-size: 14px;
-        padding: 0 0 0 10px !important;
-        border-radius: 8px !important;
-    }
-    Input{
-        font-size: 14px !important;
-    }
-}
 
-@media not all and (min-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
-    .sub_main_1 {
-        height: 50px;
-        column-gap: 34px !important;
-        justify-content: space-between;
-    }
-    .heading h2 {
-        font-size: 16px;
-    }
-    button {
-        /* width: 100px !important; */
-        padding: 8px !important;
-        font-size: 10px !important;
-        width: 100% !important;
-    }
-    Button{
-        gap: 4px !important;
-    }
-    .input{
-        width: 120px !important;
-        height: 28px !important;
-        font-size: 12px;
-        padding: 0 0 0 10px !important;
-        border-radius: 8px !important;
-    }
-    Input{
-        font-size: 12px !important;
-    }
-}
-
-@media not all and (min-width: 640px) {
-    body {
-        overflow-x: hidden;
-    }
-    .sub_main_1 {
-        height: 50px;
-        column-gap: 34px !important;
-        justify-content: space-between;
-    }
-    .heading h2 {
-        font-size: 16px;
-    }
-    button {
-        /* width: 100px !important; */
-        padding: 8px !important;
-        font-size: 10px !important;
-        width: 100% !important;
-    }
-    Button{
-        gap: 4px !important;
-    }
-    .input{
-        width: 120px !important;
-        height: 28px !important;
-        font-size: 12px;
-        padding: 0 0 0 10px !important;
-        border-radius: 8px !important;
-    }
-    Input{
-        font-size: 12px !important;
-    }
-}
-
-@media not all and (min-width: 480px) {
+@media not all and (min-width: 399px) {
     body {
         overflow-x: hidden;
     }
@@ -167,3 +69,136 @@ body {
     }
 }
 
+@media (min-width: 400px) and (max-width: 599px) {
+    body {
+        overflow-x: hidden;
+    }
+    .sub_main_1 {
+        height: 50px;
+        column-gap: 34px !important;
+        justify-content: space-between;
+    }
+    .heading h2 {
+        font-size: 12px;
+    }
+    button {
+        /* width: 100px !important; */
+        padding: 6px !important;
+        font-size: 10px !important;
+        width: 100% !important;
+        gap: 4px !important;
+    }
+    .table_btn{
+        font-size: 8px !important;
+    }
+    .input{
+        width: 80px !important;
+        height: 22px !important;
+        font-size: 10px;
+        padding: 0 0 0 10px !important;
+        border-radius: 8px !important;
+    }
+    Input{
+        font-size: 10px !important;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+    body {
+        overflow-x: hidden;
+    }
+    .sub_main_1 {
+        height: 50px;
+        column-gap: 34px !important;
+        justify-content: space-between;
+    }
+    .heading h2 {
+        font-size: 16px;
+    }
+    button {
+        /* width: 100px !important; */
+        padding: 8px !important;
+        font-size: 10px !important;
+        width: 100% !important;
+    }
+    Button{
+        gap: 4px !important;
+    }
+    .input{
+        width: 120px !important;
+        height: 28px !important;
+        font-size: 12px;
+        padding: 0 0 0 10px !important;
+        border-radius: 8px !important;
+    }
+    Input{
+        font-size: 12px !important;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+    body {
+        overflow-x: hidden;
+    }
+    .sub_main_1 {
+        height: 50px;
+        column-gap: 34px !important;
+        justify-content: space-between;
+    }
+    .heading h2 {
+        font-size: 16px;
+    }
+    button {
+        /* width: 100px !important; */
+        padding: 8px !important;
+        font-size: 10px !important;
+        width: 100% !important;
+    }
+    Button{
+        gap: 4px !important;
+    }
+    .input{
+        width: 120px !important;
+        height: 28px !important;
+        font-size: 12px;
+        padding: 0 0 0 10px !important;
+        border-radius: 8px !important;
+    }
+    Input{
+        font-size: 12px !important;
+    }
+}
+
+
+@media (min-width: 1000px) and (max-width: 1280px) {
+    body {
+        overflow-x: hidden;
+    }
+    .sub_main_1 {
+        height: 50px;
+        column-gap: 34px !important;
+        justify-content: space-between;
+    }
+    .heading h2 {
+        font-size: 16px;
+    }
+    button {
+        /* width: 100px !important; */
+        padding: 8px !important;
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+    Button{
+        gap: 4px !important;
+    }
+    .input{
+        width: 220px !important;
+        height: 38px !important;
+        font-size: 14px;
+        padding: 0 0 0 10px !important;
+        border-radius: 8px !important;
+    }
+    Input{
+        font-size: 14px !important;
+    }
+}
