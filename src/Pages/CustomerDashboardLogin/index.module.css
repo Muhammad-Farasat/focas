@@ -191,7 +191,7 @@ Input{
     }
     .top_form div{
         width: 250px;
-        padding: 6px 16px;
+        padding: 0 16px;
         font-size: 16px;
     }
     .top_form Input{
