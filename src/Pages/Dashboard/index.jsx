@@ -168,7 +168,9 @@ function Dashboard() {
       </section>
 
       <section className='middle-dashboard'>
+
         <div className='sub-middle-dashboard'>
+
           <div className='sub_middle_dashboard_main'>
             <div className='middle_dashboard_left boxes'>
 
@@ -632,7 +634,9 @@ function Dashboard() {
               </div>
             </div>
           </div>
+
         </div>
+        
       </section>
     </>
   );

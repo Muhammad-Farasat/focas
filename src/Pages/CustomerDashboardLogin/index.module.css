@@ -192,7 +192,6 @@ Input{
     .top_form div{
         width: 250px;
         padding: 6px 16px;
-        padding-left: 16px;
         font-size: 16px;
     }
     .top_form Input{
@@ -203,6 +202,7 @@ Input{
         width: 240px !important;
         padding: 10px !important;
         font-size: 16px !important;
+        margin-top: 0;
     }
     a{
         font-size: 14px;
