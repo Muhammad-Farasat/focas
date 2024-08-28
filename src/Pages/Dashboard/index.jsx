@@ -153,13 +153,15 @@ function Dashboard() {
 
           <div className='second_upper'>
             <h3>Total Revenue</h3>
-            <BarChart
-              xAxis={[{ scaleType: 'band', data: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'] }]}
-              series={[{ data: [12, 17, 5, 16, 12, 17, 21] }, { data: [15, 13, 22, 8, 11, 16, 12] }]}
-              width={680}
-              height={250}
-              grid={{ horizontal: true }}
-            />
+            <section>
+              <BarChart
+                xAxis={[{ scaleType: 'band', data: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'] }]}
+                series={[{ data: [12, 17, 5, 16, 12, 17, 21] }, { data: [15, 13, 22, 8, 11, 16, 12] }]}
+                width={680}
+                height={250}
+                grid={{ horizontal: true }}
+              />
+            </section>
           </div>
 
         </div>

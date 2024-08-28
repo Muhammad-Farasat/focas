@@ -621,6 +621,9 @@
     .middle_target section div{
         width: 360px !important;
     }
+    .second_upper section div{
+        width: 320px;
+    }
     .middle_low_stock h3, .middle_top_products h3{
         font-size: 16px
     }
