@@ -138,7 +138,7 @@ Input{
     }
     .top_form div{
         width: 250px;
-        padding: 6px 16px;
+        padding: 0 16px;
         padding-left: 16px;
         font-size: 16px;
     }
@@ -150,6 +150,7 @@ Input{
         width: 240px !important;
         padding: 10px !important;
         font-size: 16px !important;
+        margin-top: 0;
     }
     a{
         font-size: 14px;
@@ -245,7 +246,7 @@ Input{
     }
     .top_form div{
         width: 380px;
-        padding: 6px 16px;
+        padding: 0 16px;
         padding-left: 16px;
         font-size: 16px;
     }
@@ -257,6 +258,7 @@ Input{
         width: 320px !important;
         padding: 10px !important;
         font-size: 16px !important;
+        margin-top: 0;
     }
     a{
         font-size: 14px;
