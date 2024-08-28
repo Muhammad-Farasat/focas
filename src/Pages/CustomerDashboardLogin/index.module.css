@@ -96,7 +96,7 @@ Input{
     justify-content: center;
 }
 .login_btn{
-    margin-top: 22px;
+    /* margin-top: 22px; */
     display: block !important;
 }
 .forgot_pass{
