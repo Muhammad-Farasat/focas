@@ -104,7 +104,7 @@ function Dashboard() {
               </Button>
             </div>
 
-            <div className='main-square'>
+            <div className='container_1 main-square'>
 
               <div className='square red'>
                 <div className='square_icon'>

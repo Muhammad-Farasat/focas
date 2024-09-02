@@ -11,9 +11,16 @@
 .first_upper{
     background-color: #fff;
     border-radius: 12px;
-    width: max-content;
+    width: 47%;
     height: 250px;
     padding: 8px 16px;
+}
+.second_upper{
+    background-color: #fff;
+    border-radius: 12px;
+    width: 47%;
+    height: 250px;
+    padding: 14px 16px;
 }
 .container_1{
     display: flex;
@@ -29,13 +36,13 @@
 .dashboard_upper_left p{
     color: #737791;
 }
-.main-square{
+/* .main-square{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     margin: 12px 0;
     gap: 36px;
-}
+} */
 .main-square .square{
     width: 140px;
     height: 136px;
@@ -115,13 +122,6 @@
 }
 .square_text h3{
     margin: 0;
-}
-.second_upper{
-    background-color: #fff;
-    border-radius: 12px;
-    width: max-content;
-    height: 250px;
-    padding: 14px 16px;
 }
 .second_upper h3{
     margin: 0;
