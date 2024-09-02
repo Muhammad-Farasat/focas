@@ -176,9 +176,8 @@ function Dashboard() {
 
               <div className='boxes_main responsive-middle' style={{margin: '0 2px',}}>
 
-                <div className=''>
                   <div className='middle_volume'>
-                    <h3>Volume vs Service level</h3>
+                    <h3 style={{padding: '0 12px'}}>Volume vs Service level</h3>
 
                     <section>
                       <PieChart series={[{ data, innerRadius: 60 }]} {...size}>
@@ -212,15 +211,15 @@ function Dashboard() {
 
                     </div>
                   </div>
-                </div>
-                <div className=''>
+
+
                   <div className='middle_satisfaction'>
                     <h3 style={{padding: '0 12px'}}>Customer Satisfaction</h3>
 
                     <section>
                       <ChartContainer
-                        width={320}
-                        height={190}
+                        width={360}
+                        height={194}
                         series={[
                           { type: 'line', data: pData1, name: 'Series 1' },
                           { type: 'line', data: pData2, name: 'Series 2' },
@@ -275,8 +274,8 @@ function Dashboard() {
                       
 
                   </div>
-                </div>
-                <div className='' >
+
+                
                   <div className='middle_target'>
                     <h3 style={{padding: '0 12px', marginBottom: '0'}}>Target vs Reality</h3>
                     
@@ -290,7 +289,7 @@ function Dashboard() {
                         xAxis={[{ scaleType: 'band', 
                         data: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'July'] }]}
                         height={180}
-                        width={320}
+                        width={300}
                         leftAxis={null}
                       />
                     </section>
@@ -330,14 +329,13 @@ function Dashboard() {
 
 
                   </div>
-                </div>
 
               </div>
 
               <div className='boxes_main_1 responsive-middle' style={{margin: '14px 2px'}}>
-                <div className=''>
+                
                   <div className='middle_top_products'>
-                    <h3>Top Products</h3>
+                    <h3 style={{padding: '0 12px'}}>Top Products</h3>
                       <table className='middle_table'>
                         <tbody>
 
@@ -408,10 +406,9 @@ function Dashboard() {
                         </tbody>
                       </table>
                   </div>
-                </div>
-                <div className=''>
+
                   <div className='middle_low_stock'>
-                    <h3>Low Stock Items</h3>
+                    <h3 style={{padding: '0 12px'}}>Low Stock Items</h3>
                     <table className='middle_table'>
                         <tbody>
 
@@ -482,7 +479,7 @@ function Dashboard() {
                         </tbody>
                     </table>
                   </div>
-                </div>
+
               </div>
 
 

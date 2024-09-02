@@ -36,13 +36,13 @@
 .dashboard_upper_left p{
     color: #737791;
 }
-/* .main-square{
+.main-square{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 12px 0;
-    gap: 36px;
-} */
+    /* gap: 36px; */
+}
 .main-square .square{
     width: 140px;
     height: 136px;
@@ -151,38 +151,38 @@
     margin-top: 32px;
 }
 .middle_volume{
-    width: max-content;
+    width: 31%;
     height: max-content;
     background-color: #fff;
     border-radius: 8px;
-    padding: 4px 18px;
+    padding: 8px;
     /* display: flex;
     flex-direction: column;
     align-items: center; */
 }
 .middle_satisfaction{
-    width: max-content;
+    width: 31%;
     height: max-content;
     background-color: #fff;
     border-radius: 8px;
     padding: 8px;
 }
 .middle_target{
-    width: max-content;
+    width: 31%;
     height: max-content;
     background-color: #fff;
     border-radius: 8px;
     padding: 8px;
 }
 .middle_top_products{
-    width: 520px;
+    width: 48%;
     height: max-content ;
     background-color: #fff;
     border-radius: 8px;
     padding: 8px;
 }
 .middle_low_stock{
-    width: 520px;
+    width: 48%;
     height: max-content ;
     background-color: #fff;
     border-radius: 8px;
@@ -191,10 +191,7 @@
 .middle_table{
     width: 100%;
     font-size: 14px;
-    /* table-layout: fixed;
-    white-space: 6px; */
     border-collapse: collapse;
-    /* border-spacing: 23px; */
 }
 .middle_table td:nth-child(2) {
     width: 30%;
@@ -272,12 +269,13 @@
 }
 .sub_middle_dashboard_main{
     display: flex;
+    justify-content: space-between;
 }
 .middle_dashboard_left{
-    width: 70%;
+    width: 78%;
 }
 .middle_dashboard_right{
-    width: 30%;
+    width: 20%;
     display: flex;
     justify-content: center;
 }
