@@ -381,21 +381,21 @@
     .first_upper{
         height: max-content;
         padding: 16px 8px;
-        width: max-content;
+        width: 100%;
     }
     .second_upper{
-        width: max-content;
+        width: 100%;
     }
     .sub_upper_dashboard{
         gap: 12px;
         justify-content: center;
     }
     .dashboard_upper_left h3 {
-        font-size: 18px;
+        font-size: 16px;
         margin: 0;
     }
     .dashboard_upper_left p {
-        font-size: 14px;
+        font-size: 12px;
         margin: 0;
     }
     .dashboard_upper_left{
@@ -445,27 +445,24 @@
     .row{
         gap: 18px;
     }
-    .middle_top_products{
-        width: 290px;
+    .middle_top_products, .middle_low_stock{
+        width: 100%;
     }
     .middle_table td {
         padding: 10px 10px;
     }
-    /* Button .text{
-        font-size: 10px !important;
-    } */
     td Button{
         padding: 4px !important;
-    }
-    .middle_low_stock{
-        width: 290px;
     }
     .middle_table{
         font-size: 12px !important;
     }
     .recent_purchase{
-        width: 330px;
+        width: 100%;
         margin-bottom: 18px;
+    }
+    .middle_volume, .middle_satisfaction, .middle_target{
+        width: 100%;
     }
     .middle_volume section div{
         width: 260px !important;
@@ -524,11 +521,12 @@
 
 @media (min-width: 400px) and (max-width: 599px) {
     .first_upper{
+        width: 100%;
         height: max-content;
         padding: 16px 8px;
     }
     .second_upper{
-        width: max-content;
+        width: 100%;
     }
     .sub_upper_dashboard{
         gap: 12px;
@@ -593,35 +591,27 @@
     .row{
         gap: 18px;
     }
-    .middle_top_products{
-        width: 360px;
+    .middle_top_products, .middle_low_stock{
+        width: 100%;
     }
     .middle_table td {
         padding: 10px 10px;
     }
-    /* Button .text{
-        font-size: 10px !important;
-    } */
     td Button{
         padding: 4px !important;
-    }
-    .middle_low_stock{
-        width: 360px;
     }
     .middle_table{
         font-size: 12px !important;
     }
     .recent_purchase{
+        width: 100%;
         margin-bottom: 16px;
     }
-    .middle_volume section div{
-        width: 340px !important;
+    .items_1{
+        justify-content: space-between;
     }
-    .middle_satisfaction section svg{
-        width: 360px !important;
-    }
-    .middle_target section div{
-        width: 360px !important;
+    .middle_volume, .middle_satisfaction, .middle_target{
+        width: 100%;
     }
     .second_upper section div{
         width: 360px !important;
@@ -635,9 +625,6 @@
     .num{
         font-size: 14px;
     }
-    /* .img-name img{
-        width: 22% !important;
-    } */
     .img-name div h3{
         font-size: 16px;
     }
@@ -659,7 +646,6 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 26px;
     }
     .boxes_main_1{
         display: flex;
@@ -674,11 +660,15 @@
 
 @media (min-width: 600px) and (max-width: 799px) {
     .first_upper{
+        width: 100%;
         height: max-content;
         padding: 16px;
     }
     .second_upper{
-        width: max-content;
+        width: 100%;
+    }
+    .second_upper section div{
+        width: 540px;
     }
     .sub_upper_dashboard{
         gap: 12px;
@@ -693,6 +683,9 @@
     }
     .dashboard_upper_left{
         line-height: 22px;
+    }
+    .middle_volume, .middle_satisfaction, .middle_target{
+        width: 44%;
     }
     .main-square .square{
         width: 110px;
@@ -739,8 +732,8 @@
     .row{
         gap: 18px;
     }
-    .middle_top_products{
-        width: 500px;
+    .middle_top_products, .middle_low_stock{
+        width: 100%;
     }
     .middle_table td {
         padding: 10px 10px;
@@ -751,15 +744,11 @@
     td Button{
         padding: 4px !important;
     }
-    .middle_low_stock{
-        width: 500px;
-    }
     .middle_table{
-        font-size: 12px !important;
+        font-size: 14px;
     }
     .recent_purchase{
         width: 340px;
-
     }
     .middle_volume h3, .middle_satisfaction h3{
         font-size: 16px;
@@ -819,11 +808,15 @@
 
 @media (min-width: 800px) and (max-width: 900px){
     .first_upper{
+        width: 100%;
         height: max-content;
         padding: 16px;
     }
     .second_upper{
-        width: max-content;
+        width: 100%;
+    }
+    .middle_volume, .middle_satisfaction, .middle_target{
+        width: 44%;
     }
     .sub_upper_dashboard{
         gap: 12px;
@@ -885,7 +878,7 @@
         gap: 18px;
     }
     .middle_top_products{
-        width: 410px;
+        width: 46%;
     }
     .middle_table td {
         padding: 10px 10px;
@@ -897,20 +890,19 @@
         padding: 4px !important;
     }
     .middle_low_stock{
-        width: 410px;
+        width: 46%;
     }
     .middle_table{
         font-size: 12px !important;
     }
     .recent_purchase{
         width: 340px;
-
     }
     .css-1blkw4v-MuiResponsiveChart-container{
-        width: 220px !important;
+        width: 300px !important;
     }
     .css-1fueysg-MuiChartsSurface-root{
-        width: 220px !important;
+        width: 360px !important;
     }
     .css-1hrxgtf-MuiResponsiveChart-container{
         width: 270px !important;
@@ -961,11 +953,12 @@
 
 @media (min-width: 901px) and (max-width: 1024px){
     .first_upper{
+        width: 100%;
         height: max-content;
         padding: 16px;
     }
     .second_upper{
-        width: max-content;
+        width: 100%;
     }
     .sub_upper_dashboard{
         gap: 12px;
@@ -1026,9 +1019,6 @@
     .row{
         gap: 18px;
     }
-    .middle_top_products{
-        width: 460px;
-    }
     .middle_table td {
         padding: 10px 10px;
     }
@@ -1038,15 +1028,11 @@
     td Button{
         padding: 4px !important;
     }
-    .middle_low_stock{
-        width: 460px;
-    }
     .middle_table{
         font-size: 12px !important;
     }
     .recent_purchase{
         width: 340px;
-
     }
     .css-1blkw4v-MuiResponsiveChart-container{
         width: 220px !important;
@@ -1089,12 +1075,10 @@
     .boxes_main{
         display: flex;
         flex-wrap: wrap;
-        gap: 26px;
     }
     .boxes_main_1{
         display: flex;
         flex-wrap: wrap;
-        gap: 18px;
     }
     .sub-middle-dashboard {
         margin: 0 9px;
@@ -1103,11 +1087,12 @@
 
 @media (min-width: 1025px) and (max-width: 1280px){
     .first_upper{
+        width: 100%;
         height: max-content;
         padding: 16px;
     }
     .second_upper{
-        width: max-content;
+        width: 100%;
     }
     .sub_upper_dashboard{
         gap: 12px;
@@ -1229,14 +1214,10 @@
         justify-content: flex-start;
     }
     .boxes_main{
-        display: flex;
         flex-wrap: wrap;
-        gap: 26px;
     }
     .boxes_main_1{
-        display: flex;
         flex-wrap: wrap;
-        gap: 18px;
     }
     .sub-middle-dashboard {
         margin: 0 9px;

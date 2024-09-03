@@ -172,6 +172,7 @@ function Dashboard() {
         <div className='sub-middle-dashboard'>
 
           <div className='sub_middle_dashboard_main'>
+
             <div className='middle_dashboard_left boxes'>
 
               <div className='boxes_main responsive-middle' style={{margin: '0 2px',}}>
@@ -211,7 +212,6 @@ function Dashboard() {
 
                     </div>
                   </div>
-
 
                   <div className='middle_satisfaction'>
                     <h3 style={{padding: '0 12px'}}>Customer Satisfaction</h3>
@@ -275,7 +275,6 @@ function Dashboard() {
 
                   </div>
 
-                
                   <div className='middle_target'>
                     <h3 style={{padding: '0 12px', marginBottom: '0'}}>Target vs Reality</h3>
                     
@@ -482,12 +481,8 @@ function Dashboard() {
 
               </div>
 
-
-
-
-
-
             </div>
+
             <div className='middle_dashboard_right'>
               <div className="recent_purchase">
                 <h3 className='recent'>Recent Purchases</h3>
@@ -630,6 +625,7 @@ function Dashboard() {
 
               </div>
             </div>
+            
           </div>
 
         </div>
