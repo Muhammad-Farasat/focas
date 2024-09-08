@@ -33,7 +33,7 @@ function Vendor() {
   return (
     <>
         <NavBar  title='Dashboard' />
-        <Table head='Vendor List' colGap='20rem' />
+        <Table head='Vendor List' colGap='space-between' />
         <ListTable headers={headers} data={data} />
     </>
   )

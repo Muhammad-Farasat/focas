@@ -35,7 +35,7 @@ function Sale() {
     <>
 
        <NavBar  title='Dashboard'/>
-       <Table head='Sales' colGap='22rem' />
+       <Table head='Sales' colGap='space-between' />
        <ListTable headers={headers} data={data}  />
 
     </>

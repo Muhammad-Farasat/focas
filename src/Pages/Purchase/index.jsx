@@ -33,7 +33,7 @@ function Purchase() {
   return (
     <>
         <NavBar title='Dashboard' />
-        <Table head='Purchases' colGap='20rem' />
+        <Table head='Purchases' colGap='space-between' />
         <ListTable headers={headers} data={data} />
     </>
   )

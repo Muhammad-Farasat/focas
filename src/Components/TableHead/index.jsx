@@ -11,7 +11,7 @@ function Table(props) {
   return (
     <>
         <div className={styles.main_1}>
-            <div className={styles.sub_main_1} style={{columnGap: colGap}}>
+            <div className={styles.sub_main_1} style={{justifyContent: colGap}}>
                 <div className={styles.heading}>
                     <h2>{head}</h2>
                 </div>

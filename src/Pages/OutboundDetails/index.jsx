@@ -46,7 +46,7 @@ function OutboundDetails() {
 
 
 
-    <Table colGap='18rem' head='Purchase Order' />
+    <Table colGap='space-between' head='Purchase Order' />
     <ListTable headers={headers} data={data} />
 
 

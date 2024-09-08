@@ -38,7 +38,7 @@ function ListFinal() {
   return (
     <>
         <NavBar title='Product List' />
-        <Table colGap='25rem' perform={() => (setOpenModal(true))} />
+        <Table colGap='space-between' perform={() => (setOpenModal(true))} />
         <ListTable headers = {headers} data={data}       />
 
         {openModal && <Modal onClose={() => setOpenModal(false)} />}
